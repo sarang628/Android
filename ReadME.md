@@ -102,3 +102,16 @@ public class ContextSampleActivity extends AppCompatActivity {
 
 #### 화면 스택 처리하기
 
+액티비티 스택 처리부분에 대해서 알아보자
+
+##### FLAG_ACTIVITY_CLEAR_TOP
+
+플레그를 가지고 여러방법으로 테스트 해봤지만 눈에 들어오는 기능은 FLAG_ACTIVITY_CLEAR_TOP 와 FLAG_ACTIVITY_SINGLE_TOP 두가지이다.
+
+<img src = image/activity/flag/0.jpg width = 400px>
+
+<img src = image/activity/flag/1.jpg width = 400px>
+
+위 두가지 그림을 보자. 첫번째는 StackActivity를 실행후 Stack1Activity을 4번 실행하였다. 총 5개의 엑티비티 스택이 쌓여있으며, 여기서 FLAG_ACTIVITY_CLEAR_TOP 으로 StackActivity를 다시 실행하였다.  그러면 이전에 StackActivity를 기준으로 그 다음에 실행되었던 엑티비티를 모두 종료 시킨 걸 볼 수 있다. 빨강색 배경이 액티비티가 종료되었다는 표시이다.
+
+ StackActivity는 기존에 있던 엑티비티는 종료되고 새로 생성된다는것을 주의해야한다.
