@@ -10,7 +10,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.Stack1Activity"></activity>
+        <activity android:name=".fragments.MyFragmentActivity"></activity>
+        <activity android:name=".activity.Stack1Activity" />
         <activity android:name=".activity.StackActivity" />
         <activity android:name=".activity.ContextSampleActivity" />
         <activity android:name=".activity.ActivitySample0" />
