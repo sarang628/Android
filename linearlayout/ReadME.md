@@ -16,11 +16,11 @@ LinearLayout를 사용하여 화면을 만들어보도록 하겠습니다.
 
 아래 화면은 Houzz라는 어플리케이션의 로그인 화면입니다.
 
-<img src="./houzz.jpg" width=500px/>
+<img src="./houzz.jpg" width=400px/>
 
 LinearLayout을 활용하여 만든 화면입니다.
 
-<img src="./sample.png" width=500px/>
+<img src="./sample.png" width=400px/>
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?><!--
