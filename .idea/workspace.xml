@@ -11,22 +11,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52ed883c-7faf-416c-99e4-02cca5b7f136" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/linearlayout/houzz.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linearlayout/sample.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadME.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadME.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linearlayout/ReadME.md" beforeDir="false" afterPath="$PROJECT_DIR$/linearlayout/ReadME.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linearlayout/src/main/res/layout/activity_linear_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/linearlayout/src/main/res/layout/activity_linear_layout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linearlayout/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/linearlayout/src/main/res/values/styles.xml" afterDir="false" />
-    </list>
+    <list default="true" id="52ed883c-7faf-416c-99e4-02cca5b7f136" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +35,8 @@
         <entry file="file://$PROJECT_DIR$/linearlayout/src/main/res/layout/activity_linear_layout.xml">
           <provider editor-type-id="android-designer2" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="115" column="28" selection-start-line="115" selection-start-column="28" selection-end-line="115" selection-end-column="28" />
+            <state relative-caret-position="296">
+              <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
             </state>
           </provider>
         </entry>
@@ -291,10 +276,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="810" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.3390558" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.3390558" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -305,7 +289,7 @@
       <window_info anchor="bottom" id="Find" weight="0.3294964" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="TODO" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" weight="0.3294964" />
+      <window_info anchor="bottom" id="Terminal" order="2" visible="true" weight="0.3294964" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" weight="0.3294964" />
       <window_info anchor="bottom" id="Build" order="4" weight="0.3294964" />
       <window_info anchor="bottom" id="Run" order="5" />
@@ -317,7 +301,7 @@
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="right" id="Device File Explorer" order="4" side_tool="true" />
-      <window_info active="true" anchor="right" id="Preview" order="5" visible="true" weight="0.3297568" />
+      <window_info anchor="right" id="Preview" order="5" visible="true" weight="0.3297568" />
     </layout>
     <layout-to-restore>
       <window_info id="Build Variants" order="0" side_tool="true" />
@@ -479,8 +463,8 @@
     <entry file="file://$PROJECT_DIR$/linearlayout/src/main/res/layout/activity_linear_layout.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="115" column="28" selection-start-line="115" selection-start-column="28" selection-end-line="115" selection-end-column="28" />
+        <state relative-caret-position="296">
+          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
         </state>
       </provider>
     </entry>
