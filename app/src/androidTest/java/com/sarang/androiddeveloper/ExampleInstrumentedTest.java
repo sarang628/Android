@@ -2,8 +2,8 @@ package com.sarang.androiddeveloper;
 
 import android.content.Context;
 import android.location.LocationManager;
-import android.support.test.InstrumentationRegistry;
-import android.support.test.runner.AndroidJUnit4;
+import androidx.test.platform.app.InstrumentationRegistry;
+import androidx.test.ext.junit.runners.AndroidJUnit4;
 import android.util.Log;
 
 import org.junit.Test;

@@ -9,19 +9,6 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="activity"
-            android:text="activity" />
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="fragment"
-            android:text="fragment" />
-    </LinearLayout>
+        android:orientation="vertical"></LinearLayout>
 
 </ScrollView>

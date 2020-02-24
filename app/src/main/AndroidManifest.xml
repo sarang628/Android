@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.sarang.androiddeveloper">
 
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
         android:name=".MyApplication"
         android:allowBackup="true"
@@ -10,11 +12,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".fragments.MyFragmentActivity"></activity>
-        <activity android:name=".activity.Stack1Activity" />
-        <activity android:name=".activity.StackActivity" />
-        <activity android:name=".activity.ContextSampleActivity" />
-        <activity android:name=".activity.ActivitySample0" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
