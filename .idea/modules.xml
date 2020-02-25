@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/AndroidDeveloperSite.iml" filepath="$PROJECT_DIR$/AndroidDeveloperSite.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/linearlayout/linearlayout.iml" filepath="$PROJECT_DIR$/linearlayout/linearlayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/relativelayout/relativelayout.iml" filepath="$PROJECT_DIR$/relativelayout/relativelayout.iml" />
     </modules>
   </component>
 </project>
