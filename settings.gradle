@@ -1,1 +1,1 @@
-include ':app', ':linearlayout', ':relativelayout', ':constraintlayout'
+include ':app', ':linearlayout', ':relativelayout', ':constraintlayout', ':selectstoragepicture'
