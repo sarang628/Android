@@ -1,1 +1,1 @@
-include ':app', ':linearlayout', ':relativelayout', ':constraintlayout', ':selectstoragepicture'
+include ':app', ':linearlayout', ':relativelayout', ':constraintlayout', ':selectstoragepicture', ':countableprogressdialog'
