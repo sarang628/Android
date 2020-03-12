@@ -5,3 +5,5 @@
 - ViewPager를 이용하여 페이지 기능 구현
 - ViewPagerIndicator 만들기 (Shape, ConstraintLayout chain 사용)
 - style 테마 색상 사용
+
+<img src = "sample0.png" width="300px">

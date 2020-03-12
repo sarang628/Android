@@ -12,6 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52ed883c-7faf-416c-99e4-02cca5b7f136" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/netflixintro/sample0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/netflixintro/ReadME.md" beforeDir="false" afterPath="$PROJECT_DIR$/netflixintro/ReadME.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,27 +49,27 @@
     <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="ce08171868a52d0f047e" />
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-02-26T10:36:11.953Z" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/profilescreensample/src/main/res/layout" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/netflixintro" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="copyright.profiles" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/relativelayout" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/netflixintro" />
+      <recent name="$PROJECT_DIR$/profilescreensample/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/profilescreensample/src/main/java/com/sarang/profilescreensample" />
+      <recent name="$PROJECT_DIR$/countableprogressdialog" />
+      <recent name="$PROJECT_DIR$/countableprogressdialog/src/main/res/layout" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.sarang.profilescreensample" />
       <recent name="com.sarang.countableprogressdialog" />
       <recent name="com.sarang.selectstoragepicture" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/profilescreensample/src/main/res/layout" />
-      <recent name="$PROJECT_DIR$/profilescreensample/src/main/java/com/sarang/profilescreensample" />
-      <recent name="$PROJECT_DIR$/countableprogressdialog" />
-      <recent name="$PROJECT_DIR$/countableprogressdialog/src/main/res/layout" />
-      <recent name="$PROJECT_DIR$/countableprogressdialog/src/main/res/drawable" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/relativelayout" />
     </key>
   </component>
   <component name="RunDashboard">
