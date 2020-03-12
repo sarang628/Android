@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AndroidDeveloperSite.iml" filepath="$PROJECT_DIR$/AndroidDeveloperSite.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/constraintlayout/constraintlayout.iml" filepath="$PROJECT_DIR$/constraintlayout/constraintlayout.iml" />
-      <module fileurl="file://$PROJECT_DIR$/countableprogressdialog/countableprogressdialog.iml" filepath="$PROJECT_DIR$/countableprogressdialog/countableprogressdialog.iml" />
-      <module fileurl="file://$PROJECT_DIR$/linearlayout/linearlayout.iml" filepath="$PROJECT_DIR$/linearlayout/linearlayout.iml" />
-      <module fileurl="file://$PROJECT_DIR$/profilescreensample/profilescreensample.iml" filepath="$PROJECT_DIR$/profilescreensample/profilescreensample.iml" />
-      <module fileurl="file://$PROJECT_DIR$/relativelayout/relativelayout.iml" filepath="$PROJECT_DIR$/relativelayout/relativelayout.iml" />
-      <module fileurl="file://$PROJECT_DIR$/selectstoragepicture/selectstoragepicture.iml" filepath="$PROJECT_DIR$/selectstoragepicture/selectstoragepicture.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Android.iml" filepath="$PROJECT_DIR$/Android.iml" group="Android" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Android/app" />
+      <module fileurl="file://$PROJECT_DIR$/constraintlayout/constraintlayout.iml" filepath="$PROJECT_DIR$/constraintlayout/constraintlayout.iml" group="Android/constraintlayout" />
+      <module fileurl="file://$PROJECT_DIR$/countableprogressdialog/countableprogressdialog.iml" filepath="$PROJECT_DIR$/countableprogressdialog/countableprogressdialog.iml" group="Android/countableprogressdialog" />
+      <module fileurl="file://$PROJECT_DIR$/linearlayout/linearlayout.iml" filepath="$PROJECT_DIR$/linearlayout/linearlayout.iml" group="Android/linearlayout" />
+      <module fileurl="file://$PROJECT_DIR$/netflixintro/netflixintro.iml" filepath="$PROJECT_DIR$/netflixintro/netflixintro.iml" group="Android/netflixintro" />
+      <module fileurl="file://$PROJECT_DIR$/profilescreensample/profilescreensample.iml" filepath="$PROJECT_DIR$/profilescreensample/profilescreensample.iml" group="Android/profilescreensample" />
+      <module fileurl="file://$PROJECT_DIR$/relativelayout/relativelayout.iml" filepath="$PROJECT_DIR$/relativelayout/relativelayout.iml" group="Android/relativelayout" />
+      <module fileurl="file://$PROJECT_DIR$/selectstoragepicture/selectstoragepicture.iml" filepath="$PROJECT_DIR$/selectstoragepicture/selectstoragepicture.iml" group="Android/selectstoragepicture" />
     </modules>
   </component>
 </project>

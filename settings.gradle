@@ -1,1 +1,1 @@
-include ':app', ':linearlayout', ':relativelayout', ':constraintlayout', ':selectstoragepicture', ':countableprogressdialog', ':profilescreensample'
+include ':app', ':linearlayout', ':relativelayout', ':constraintlayout', ':selectstoragepicture', ':countableprogressdialog', ':profilescreensample', ':netflixintro'

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.sarang.netflixintro.IntroViewModel" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="@dimen/view_pager_indicator_size"
+            android:layout_height="@dimen/view_pager_indicator_size"
+            android:background="@drawable/shape_circle"
+            app:layout_constraintEnd_toStartOf="@+id/imageView"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:selected="@{viewModel.currentPosition == 0 ? Boolean.TRUE : Boolean.FALSE}" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="@dimen/view_pager_indicator_size"
+            android:layout_height="@dimen/view_pager_indicator_size"
+            app:layout_constraintEnd_toStartOf="@+id/imageView2"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/imageView4"
+            app:layout_constraintTop_toTopOf="@+id/imageView4"
+            app:selected="@{viewModel.currentPosition == 1 ? Boolean.TRUE : Boolean.FALSE}"
+            app:srcCompat="@drawable/shape_circle" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="@dimen/view_pager_indicator_size"
+            android:layout_height="@dimen/view_pager_indicator_size"
+            app:layout_constraintEnd_toStartOf="@+id/imageView3"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="@+id/imageView"
+            app:selected="@{viewModel.currentPosition == 2 ? Boolean.TRUE : Boolean.FALSE}"
+            app:srcCompat="@drawable/shape_circle" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="@dimen/view_pager_indicator_size"
+            android:layout_height="@dimen/view_pager_indicator_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/imageView2"
+            app:layout_constraintTop_toTopOf="@+id/imageView2"
+            app:selected="@{viewModel.currentPosition == 3 ? Boolean.TRUE : Boolean.FALSE}"
+            app:srcCompat="@drawable/shape_circle" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
