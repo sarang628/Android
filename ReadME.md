@@ -26,4 +26,4 @@ LinearLayout과 RelativeLayout 그리고 ConstaintLayout입니다.
 
 [파일 업로드 다이얼로그 만들기](countableprogressdialog/ReadME.md)
 
-[넷플릭스 인드로 화면 따라 만들기](netflixintro/ReadME.md)
+[넷플릭스 인트로 화면 따라 만들기](netflixintro/ReadME.md)
