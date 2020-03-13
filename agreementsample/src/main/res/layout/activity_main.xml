@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.example.sarang.agreementsample.MainViewModel" />
+    </data>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.sarang.agreementsample.MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#f8f8f8"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:paddingLeft="13dp"
+            android:paddingRight="13dp"
+            android:paddingBottom="13dp"
+            android:weightSum="1">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#cccccc"
+                android:orientation="vertical" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#cccccc"
+                android:orientation="horizontal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:orientation="horizontal" />
+
+
+            <LinearLayout
+                android:layout_width="319dp"
+                android:layout_height="25dp"
+                android:layout_marginBottom="18dp"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/check_all"
+                    android:layout_width="360dp"
+                    android:layout_height="18dp"
+                    android:layout_marginBottom="10dp"
+                    android:checked="@{viewModel.isAgreeMand&amp;&amp;viewModel.isLbsOption&amp;&amp;viewModel.isPersonalInfoMand}"
+                    android:maxLines="2"
+                    android:onClick="@{()->viewModel.clickAllcheck()}"
+                    android:singleLine="true"
+                    android:text="@string/agreement_all"
+                    android:textAlignment="textEnd" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_agree_mand"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/check_agree_mand"
+                    android:layout_width="wrap_content"
+                    android:layout_height="18dp"
+                    android:layout_marginBottom="10dp"
+                    android:checked="@={viewModel.isAgreeMand}"
+                    android:text="@string/agreement_mandatory" />
+
+                <TextView
+                    android:id="@+id/tv_agree_mand"
+                    android:layout_width="340dp"
+                    android:layout_height="121dp"
+                    android:background="#ffffff"
+                    android:scrollbars="vertical"
+                    android:text="@{viewModel.agreeMand}"
+                    android:textColor="#333333" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_personalinfo_mand"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/check_personalinfo_mand"
+                    android:layout_width="wrap_content"
+                    android:layout_height="18dp"
+                    android:layout_marginBottom="10dp"
+                    android:checked="@={viewModel.isPersonalInfoMand}"
+                    android:text="@string/personal_info_mandatory" />
+
+                <TextView
+                    android:id="@+id/tv_personalinfo_mand"
+                    android:layout_width="340dp"
+                    android:layout_height="121dp"
+                    android:background="#ffffff"
+                    android:text="@{viewModel.personalInfoMand}"
+                    android:textColor="#333333" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_lbs_option"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/check_lbs_option"
+                    android:layout_width="wrap_content"
+                    android:layout_height="18dp"
+                    android:layout_marginBottom="10dp"
+                    android:checked="@={viewModel.isLbsOption}"
+                    android:text="@string/lbs_info_optional" />
+
+                <TextView
+                    android:id="@+id/tv_lbs_option"
+                    android:layout_width="340dp"
+                    android:layout_height="121dp"
+                    android:background="#ffffff"
+                    android:text="@{viewModel.lbsOption}"
+                    android:textColor="#333333" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/btn_disagree"
+                    android:layout_width="160dp"
+                    android:layout_height="45dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="#f2814e"
+                    android:enabled="false"
+                    android:text="비동의"
+                    android:textColor="#ffffff" />
+
+                <Button
+                    android:id="@+id/btn_agree"
+                    android:layout_width="160dp"
+                    android:layout_height="45dp"
+                    android:layout_alignParentRight="true"
+                    android:background="#f2814e"
+                    android:enabled="false"
+                    android:text="동의"
+                    android:textColor="#ffffff" />
+            </RelativeLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</layout>
