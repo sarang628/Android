@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="limitableEdittext">
+        <attr name="digit" format="integer" />
+        <attr name="max" format="float" />
+        <attr name="min" format="float" />
+    </declare-styleable>
+</resources>

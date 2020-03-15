@@ -1,1 +1,1 @@
-include ':app', ':linearlayout', ':relativelayout', ':constraintlayout', ':selectstoragepicture', ':countableprogressdialog', ':profilescreensample', ':netflixintro', ':videoview', ':agreementsample'
+include ':app', ':linearlayout', ':relativelayout', ':constraintlayout', ':selectstoragepicture', ':countableprogressdialog', ':profilescreensample', ':netflixintro', ':videoview', ':agreementsample', ':ble', ':custom_attribute_edittext', ':customtransition'

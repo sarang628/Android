@@ -3,10 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Android.iml" filepath="$PROJECT_DIR$/Android.iml" group="Android" />
+      <module fileurl="file://$PROJECT_DIR$/custom_attribute_edittext/Android-custom_attribute_edittext.iml" filepath="$PROJECT_DIR$/custom_attribute_edittext/Android-custom_attribute_edittext.iml" group="Android/custom_attribute_edittext" />
       <module fileurl="file://$PROJECT_DIR$/agreementsample/agreementsample.iml" filepath="$PROJECT_DIR$/agreementsample/agreementsample.iml" group="Android/agreementsample" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Android/app" />
+      <module fileurl="file://$PROJECT_DIR$/ble/ble.iml" filepath="$PROJECT_DIR$/ble/ble.iml" group="Android/ble" />
       <module fileurl="file://$PROJECT_DIR$/constraintlayout/constraintlayout.iml" filepath="$PROJECT_DIR$/constraintlayout/constraintlayout.iml" group="Android/constraintlayout" />
       <module fileurl="file://$PROJECT_DIR$/countableprogressdialog/countableprogressdialog.iml" filepath="$PROJECT_DIR$/countableprogressdialog/countableprogressdialog.iml" group="Android/countableprogressdialog" />
+      <module fileurl="file://$PROJECT_DIR$/custom_attribute_edittext/custom_attribute_edittext.iml" filepath="$PROJECT_DIR$/custom_attribute_edittext/custom_attribute_edittext.iml" group="Android/custom_attribute_edittext" />
+      <module fileurl="file://$PROJECT_DIR$/customtransition/customtransition.iml" filepath="$PROJECT_DIR$/customtransition/customtransition.iml" group="Android/customtransition" />
       <module fileurl="file://$PROJECT_DIR$/linearlayout/linearlayout.iml" filepath="$PROJECT_DIR$/linearlayout/linearlayout.iml" group="Android/linearlayout" />
       <module fileurl="file://$PROJECT_DIR$/netflixintro/netflixintro.iml" filepath="$PROJECT_DIR$/netflixintro/netflixintro.iml" group="Android/netflixintro" />
       <module fileurl="file://$PROJECT_DIR$/profilescreensample/profilescreensample.iml" filepath="$PROJECT_DIR$/profilescreensample/profilescreensample.iml" group="Android/profilescreensample" />

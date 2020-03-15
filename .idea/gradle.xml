@@ -13,8 +13,11 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/agreementsample" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/ble" />
             <option value="$PROJECT_DIR$/constraintlayout" />
             <option value="$PROJECT_DIR$/countableprogressdialog" />
+            <option value="$PROJECT_DIR$/custom_attribute_edittext" />
+            <option value="$PROJECT_DIR$/customtransition" />
             <option value="$PROJECT_DIR$/linearlayout" />
             <option value="$PROJECT_DIR$/netflixintro" />
             <option value="$PROJECT_DIR$/profilescreensample" />
