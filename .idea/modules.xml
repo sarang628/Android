@@ -17,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/relativelayout/relativelayout.iml" filepath="$PROJECT_DIR$/relativelayout/relativelayout.iml" group="Android/relativelayout" />
       <module fileurl="file://$PROJECT_DIR$/selectstoragepicture/selectstoragepicture.iml" filepath="$PROJECT_DIR$/selectstoragepicture/selectstoragepicture.iml" group="Android/selectstoragepicture" />
       <module fileurl="file://$PROJECT_DIR$/videoview/videoview.iml" filepath="$PROJECT_DIR$/videoview/videoview.iml" group="Android/videoview" />
+      <module fileurl="file://$PROJECT_DIR$/viewpager/viewpager.iml" filepath="$PROJECT_DIR$/viewpager/viewpager.iml" group="Android/viewpager" />
     </modules>
   </component>
 </project>
